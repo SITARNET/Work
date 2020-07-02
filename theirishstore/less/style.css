@@ -39,5 +39,37 @@ body {
 
 .pageheader {
     -webkit-font-smoothing: antialiased;
-    
+    background-color: #a9b089;
+    border-bottom: none;
+    margin-bottom: 20px;
+}
+
+.panelwrapper {
+    background-color: #a9b089;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed','Helvetica Condensed','Arial Narrow',Arial,sans-serif;
+    letter-spacing: 1.5px;
+    line-height: 1.3;
+    padding-top: 5px;
+}
+
+.switcher currency switcher-currency {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed','Helvetica Condensed','Arial Narrow',Arial,sans-serif;
+    letter-spacing: 1.5px;
+    line-height: 1.3;
+    -webkit-font-smoothing: antialiased;
+    float: right;
+    margin-left: 15px;
+    margin-right: -6px;
+    order: 1;
+    display: inline-block;
+}
+
+.label switcher-label {
+
 }
