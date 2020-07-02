@@ -1,0 +1,43 @@
+body {
+    color: #252c26;
+    font-family: 'Roboto','Roboto',Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.42857143;
+    font-size: 1.4rem;
+}
+
+.maintopweb {
+    color: #252c26;
+    font-family: 'Roboto','Roboto',Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.42857143;
+    font-size: 1.4rem;
+    display: block;
+    height: 48px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 9px;
+    background-color: #2d2b31;
+    text-align: center;
+}
+
+.maintopwebbanner1 {
+    margin-top: 0px;
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.maintopwebbanner2 {
+    margin-top: 0px;
+    color: #fff;
+    font-size: 13px;
+    font-style: normal;
+}
+
+.pageheader {
+    -webkit-font-smoothing: antialiased;
+    
+}
