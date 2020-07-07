@@ -1,10 +1,12 @@
+@font-size: 14px;
+
 body {
   color: #252c26;
-  font-family: 'Roboto', 'Roboto', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto','Roboto',Helvetica,Arial,sans-serif;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.42;
-  font-size: 1.4rem;
+  line-height: 1.42857143;
+  font-size: @font-size;
   margin: 0px;
 }
 .main {
@@ -13,13 +15,14 @@ body {
   padding: 0 0px;
   margin: 0 auto;
 }
+
 .top {
   color: white;
-  font-family: 'Roboto', 'Roboto', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto','Roboto',Helvetica,Arial,sans-serif;
   font-style: normal;
   font-weight: 300;
-  line-height: 1.42;
-  font-size: 14px;
+  line-height: 1.42857143;
+  font-size: @font-size;
   display: block;
   height: 48px;
   margin-right: auto;
@@ -28,13 +31,15 @@ body {
   background-color: #2d2b31;
   text-align: center;
 }
+
 .header {
   display: flex;
   flex-direction: column;
 }
+
 .top-information {
-  font-size: 14px;
-  font-family: 'Roboto Condensed', 'Helvetica Condensed', 'Arial Narrow', Arial, sans-serif;
+  font-size: @font-size;
+  font-family: 'Roboto Condensed','Helvetica Condensed','Arial Narrow',Arial,sans-serif;
   letter-spacing: 1.5px;
   line-height: 1.3;
   padding-top: 5px;
@@ -44,10 +49,11 @@ body {
   height: 50px;
   display: block;
 }
+
 .information {
-  font-size: 14px;
+  font-size: 1rem;
   text-transform: uppercase;
-  font-family: 'Roboto Condensed', 'Helvetica Condensed', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Roboto Condensed','Helvetica Condensed','Arial Narrow',Arial,sans-serif;
   letter-spacing: 1.5px;
   line-height: 1.3;
   padding-top: 5px;
@@ -57,6 +63,7 @@ body {
   height: 100px;
   display: flex;
 }
+
 .account-information {
   float: right;
   display: block;
@@ -73,10 +80,11 @@ body {
   padding-right: 10px;
   padding-bottom: 15px;
   overflow-x: hidden;
+
 }
 .usd-information {
   font-size: 14px;
-  text-transform: lowercase;
+  text-transform: uppercsase;
   font-weight: 700;
   letter-spacing: 2px;
   background-color: transparent;
@@ -91,9 +99,10 @@ body {
   float: right;
   display: block;
 }
+
 .delivery-information {
   font-size: 14px;
-  text-transform: lowercase;
+  text-transform: uppercsase;
   font-weight: 700;
   letter-spacing: 2px;
   background-color: transparent;
@@ -103,49 +112,59 @@ body {
   color: #fff;
   display: block;
   float: left;
+
 }
+
 .delivery-information a {
   color: #fff;
   font-weight: 700;
   text-decoration: none;
 }
+
 .delivery-information img {
   padding-left: 5px;
   padding-right: 1px;
   position: relative;
 }
-img,
-object,
-video,
-embed {
+
+img, object, video, embed {
   height: auto;
   max-width: 100%;
 }
+
+.button-account {
+
+}
+
 .top-title-2 {
   font-size: 0.8rem;
   text-transform: capitalize;
 }
+
 .phone-icon {
   display: block;
   float: left;
   padding-left: 5px;
 }
-.phone span a {
+
+.phone span a  {
   float: left;
   padding-left: 5px;
   color: #252c26;
-  font-family: 'Roboto', 'Roboto', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto','Roboto',Helvetica,Arial,sans-serif;
   font-style: normal;
   line-height: 1.42857143;
-  font-size: 14px;
+  font-size: 0.9rem;
   font-weight: bold;
   text-decoration: none;
   display: block;
 }
+
 .phone-block {
   display: block;
   float: left;
 }
+
 .logo {
   display: block;
   margin-right: auto;
@@ -154,25 +173,29 @@ embed {
   position: relative;
   top: 15px;
 }
+
 .search {
   padding-left: 15px;
   position: relative;
   float: right;
 }
+
 .search input {
   color: #252c26;
-  font-family: 'Roboto', 'Roboto', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto','Roboto',Helvetica,Arial,sans-serif;
   font-style: normal;
   line-height: 1.42857143;
-  font-size: 14px;
+  font-size: 0.9rem;
   font-weight: bold;
   text-decoration: none;
 }
+
 .search button::before {
   content: "\e900";
   font-family: 'icomoon';
   font-size: 12px;
 }
+
 .search button {
   background-color: transparent;
   outline: none;
@@ -181,6 +204,7 @@ embed {
   position: absolute;
   right: 10px;
 }
+
 .search form {
   position: relative;
 }
@@ -198,6 +222,7 @@ embed {
 .search form input::placeholder {
   color: #000;
 }
+
 .header-button {
   font-size: 14px;
   text-transform: uppercsase;
@@ -211,6 +236,7 @@ embed {
   display: block;
   float: right;
 }
+
 .header-menu {
   box-sizing: border-box;
   margin-left: auto;
@@ -222,21 +248,23 @@ embed {
   align-items: center;
   justify-content: center;
 }
+
 .header-menu ul li {
   display: inline-block;
 }
+
 .header-menu ul li + li {
   margin-left: 30px;
 }
+
 .menu-link {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #252c26;
-  font-family: 'Roboto', 'Roboto', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto','Roboto',Helvetica,Arial,sans-serif;
   font-style: normal;
   font-weight: 700;
   line-height: 1.42857143;
-  font-size: 4.8rem;
+  font-size: 0.8rem;
 }
-/*# sourceMappingURL=style.css.map */
