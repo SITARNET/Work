@@ -1,29 +1,35 @@
+.center {
+  margin-right: auto;
+  margin-left: auto;
+}
+.font-style {
+  color: #fff;
+  font-weight: 700;
+}
 body {
   color: #252c26;
   font-family: 'Roboto', 'Roboto', Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.42857143;
+  line-height: 1.4;
   font-size: 14px;
-  margin: 0px;
 }
 .main {
   /*max-width: 1280px;*/
   min-width: 768px;
-  padding: 0 0px;
   margin: 0 auto;
 }
 .top {
+  margin-right: auto;
+  margin-left: auto;
   color: white;
   font-family: 'Roboto', 'Roboto', Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 300;
-  line-height: 1.42857143;
+  line-height: 1.4;
   font-size: 14px;
   display: block;
   height: 48px;
-  margin-right: auto;
-  margin-left: auto;
   padding-top: 9px;
   background-color: #2d2b31;
   text-align: center;
@@ -34,9 +40,9 @@ body {
 }
 .top-information {
   font-size: 14px;
-  font-family: 'Roboto Condensed', 'Helvetica Condensed', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Roboto', 'Roboto', Helvetica, Arial, sans-serif;
   letter-spacing: 1.5px;
-  line-height: 1.3;
+  line-height: 1.4;
   padding-top: 5px;
   padding-left: 5px;
   background: rgba(169, 176, 137);
@@ -45,11 +51,11 @@ body {
   display: block;
 }
 .information {
-  font-size: 1rem;
+  font-size: 14px;
   text-transform: uppercase;
-  font-family: 'Roboto Condensed', 'Helvetica Condensed', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Roboto', 'Roboto', Helvetica, Arial, sans-serif;
   letter-spacing: 1.5px;
-  line-height: 1.3;
+  line-height: 1.4;
   padding-top: 5px;
   padding-left: 5px;
   background: rgba(169, 176, 137);
@@ -62,28 +68,17 @@ body {
   display: block;
   font-size: 14px;
   text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 2px;
-  background-color: transparent;
-  outline: none;
-  cursor: pointer;
-  border: none;
-  color: #fff;
-  padding-left: 25px;
-  padding-right: 10px;
-  padding-bottom: 15px;
-  overflow-x: hidden;
 }
 .usd-information {
   font-size: 14px;
-  text-transform: uppercsase;
+  color: #fff;
   font-weight: 700;
+  text-transform: capitalize;
   letter-spacing: 2px;
   background-color: transparent;
   outline: none;
   cursor: pointer;
   border: none;
-  color: #fff;
   padding-left: 25px;
   padding-right: 10px;
   padding-bottom: 15px;
@@ -93,14 +88,14 @@ body {
 }
 .delivery-information {
   font-size: 14px;
-  text-transform: uppercsase;
+  color: #fff;
   font-weight: 700;
+  text-transform: capitalize;
   letter-spacing: 2px;
   background-color: transparent;
   outline: none;
   cursor: pointer;
   border: none;
-  color: #fff;
   display: block;
   float: left;
 }
@@ -122,7 +117,7 @@ embed {
   max-width: 100%;
 }
 .top-title-2 {
-  font-size: 0.8rem;
+  font-size: 10px;
   text-transform: capitalize;
 }
 .phone-icon {
@@ -136,8 +131,8 @@ embed {
   color: #252c26;
   font-family: 'Roboto', 'Roboto', Helvetica, Arial, sans-serif;
   font-style: normal;
-  line-height: 1.42857143;
-  font-size: 0.9rem;
+  line-height: 1.4;
+  font-size: 10px;
   font-weight: bold;
   text-decoration: none;
   display: block;
@@ -147,9 +142,9 @@ embed {
   float: left;
 }
 .logo {
-  display: block;
   margin-right: auto;
   margin-left: auto;
+  display: block;
   transform: scale(1.5);
   position: relative;
   top: 15px;
@@ -163,8 +158,8 @@ embed {
   color: #252c26;
   font-family: 'Roboto', 'Roboto', Helvetica, Arial, sans-serif;
   font-style: normal;
-  line-height: 1.42857143;
-  font-size: 0.9rem;
+  line-height: 1.4;
+  font-size: 10px;
   font-weight: bold;
   text-decoration: none;
 }
@@ -195,26 +190,26 @@ embed {
   outline: none;
   right: 10px;
 }
-.search form input::placeholder {
+.search form input input::placeholder {
   color: #000;
 }
 .header-button {
   font-size: 14px;
-  text-transform: uppercsase;
+  color: #fff;
   font-weight: 700;
+  text-transform: lowercase;
   letter-spacing: 2px;
   background-color: transparent;
   outline: none;
   cursor: pointer;
   border: none;
-  color: #fff;
   display: block;
   float: right;
 }
 .header-menu {
-  box-sizing: border-box;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
   background-color: #e0e1dd;
   color: #fff;
   min-height: 60px;
@@ -236,7 +231,7 @@ embed {
   font-family: 'Roboto', 'Roboto', Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.42857143;
-  font-size: 0.8rem;
+  line-height: 1.4;
+  font-size: 10px;
 }
 /*# sourceMappingURL=style.css.map */
