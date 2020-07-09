@@ -34,10 +34,6 @@ body {
   background-color: #2d2b31;
   text-align: center;
 }
-.header {
-  display: flex;
-  flex-direction: column;
-}
 .top-information {
   font-size: 14px;
   font-family: 'Roboto', 'Roboto', Helvetica, Arial, sans-serif;
@@ -49,6 +45,10 @@ body {
   color: #fff;
   height: 50px;
   display: block;
+}
+.header {
+  display: flex;
+  flex-direction: column;
 }
 .information {
   font-size: 14px;
@@ -125,6 +125,10 @@ embed {
   float: left;
   padding-left: 5px;
 }
+.phone-block {
+  display: block;
+  float: left;
+}
 .phone span a {
   float: left;
   padding-left: 5px;
@@ -137,10 +141,6 @@ embed {
   text-decoration: none;
   display: block;
 }
-.phone-block {
-  display: block;
-  float: left;
-}
 .logo {
   margin-right: auto;
   margin-left: auto;
@@ -150,18 +150,9 @@ embed {
   top: 15px;
 }
 .search {
-  padding-left: 15px;
   position: relative;
   float: right;
-}
-.search input {
-  color: #252c26;
-  font-family: 'Roboto', 'Roboto', Helvetica, Arial, sans-serif;
-  font-style: normal;
-  line-height: 1.4;
-  font-size: 10px;
-  font-weight: bold;
-  text-decoration: none;
+  padding-right: 15px;
 }
 .search button::before {
   content: "\e900";
@@ -174,15 +165,24 @@ embed {
   border: none;
   cursor: pointer;
   position: absolute;
-  right: 10px;
+  right: 30px;
+  top: 10px;
 }
 .search form {
   position: relative;
+  color: #252c26;
+  font-family: 'Roboto', 'Roboto', Helvetica, Arial, sans-serif;
+  font-style: normal;
+  line-height: 1.4;
+  font-size: 10px;
+  font-weight: bold;
+  text-decoration: none;
 }
 .search form input {
   width: 200px;
   height: 30px;
   padding-right: 20px;
+  padding-left: 5px;
   font-size: 14px;
   text-transform: uppercase;
   color: #000;
@@ -192,6 +192,16 @@ embed {
 }
 .search form input input::placeholder {
   color: #000;
+}
+.cart {
+  position: relative;
+}
+.cart::before {
+  content: url(../images/tis-icon-shoppingbag.svg);
+  position: relative;
+  left: 5px;
+  top: 5px;
+  transform: translateY(-50%);
 }
 .header-button {
   font-size: 14px;
@@ -233,5 +243,59 @@ embed {
   font-weight: 700;
   line-height: 1.4;
   font-size: 10px;
+}
+.static-block {
+  margin-right: auto;
+  margin-left: auto;
+  width: auto;
+  max-width: 1280px;
+  box-sizing: border-box;
+  height: 350px;
+  position: relative;
+}
+.hero-image {
+  background-image: url("../images/hero-image.webp");
+  height: 350px;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+.day-container {
+  display: flex;
+  height: 350px;
+  max-height: 450px;
+  max-width: 1250px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.flex-day-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  height: 350px;
+}
+.day-percent {
+  color: #fff;
+  font-size: 46px;
+  line-height: 70px;
+  font-weight: 700;
+  text-shadow: 0px 0px 60px #000000, 0px 0px 20px #000000;
+  font-family: 'Roboto', 'Roboto', Helvetica, Arial, sans-serif;
+  font-style: normal;
+}
+.cyber-monday {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: #fff;
+  font-size: 35px;
+  line-height: 0px;
+  letter-spacing: 2px;
+  text-shadow: 0px 0px 10px #000000, 0px 0px 20px #000000;
+  font-family: Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
