@@ -9,8 +9,11 @@
     <link rel="preload" as="font" crossorigin="anonymous" href="fonts/Luma-Icons.woff2">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/fonts.less">
+    <script src="js/myAccountmenu.js"></script>
+    <script src="js/myUsdmenu.js"></script>
 </head>
 <body>
+
 <div class="main">
     <div class="top">
         <div class="top-title-1">INDEPENDENCE DAY SALE</div>
@@ -27,28 +30,25 @@
                 <div class="div-information">
 
                     <div class="account-information">
-                        <button class="header-button icon-down">My Account˅</button>
-
-                        <ul id="dropdown-account" class="dropdown-content">
-                            <li><a href="#my_account">my account</a></li>
-                            <li><a href="#my_wish_list">my wish list</a></li>
-                            <li><a href="#sing_in">sign in</a></li>
-                        </ul>
-
+                        <button onclick="myFunction()" class="header-button">My Account</button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="#my_account">my account</a>
+                            <a href="#my_wish_list">my wish list</a>
+                            <a href="#sing_in">sign in</a>
+                        </div>
                     </div>
 
-                    <div class="usd-information">
-                        <button class="header-button icon-down">USD ($)˅</button>
+                    <!--<div class="usd-information">
+                        <button onclick="myFunction()" class="header-button">USB ($)</button>
+                        <div id="myUsd" class="dropdown-content-usd">
+                            <a href="#AUD">AUD (A$)</a>
+                            <a href="#GBP">GBP (£)</a>
+                            <a href="#CAD">CAD (CA$)</a>
+                            <a href="#EUR">EUR (€)</a>
+                            <a href="#NZD ">NZD (NZ$)</a>
+                        </div>
 
-                        <ul id="dropdown-usd" class="dropdown-content">
-                            <li><a href="#AUD">AUD (A$)</a></li>
-                            <li><a href="#GBP">GBP (£)</a></li>
-                            <li><a href="#CAD">CAD (CA$)</a></li>
-                            <li><a href="#EUR">EUR (€)</a></li>
-                            <li><a href="#NZD ">NZD (NZ$)</a></li>
-                        </ul>
-
-                    </div>
+                    </div>-->
 
                 </div>
             </div>
