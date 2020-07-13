@@ -543,4 +543,31 @@ embed {
   position: absolute;
 }
 /**Menu dropdown**/
+/**Menu features**/
+.features {
+  padding: 20px 0 10px;
+}
+.features-inner {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f9f9f9;
+  padding: 10px 0;
+}
+.features-item {
+  display: flex;
+  padding: 10px;
+  line-height: 20px;
+  font-family: 'Roboto', sans-serif;
+  align-self: center;
+}
+.features-item-images {
+  padding-right: 10px;
+}
+.features-item-content-title {
+  font-weight: 700;
+}
+.features-item-content-text {
+  font-size: 14px;
+}
+/**Menu features**/
 /*# sourceMappingURL=style.css.map */
