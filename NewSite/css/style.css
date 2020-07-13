@@ -410,6 +410,7 @@ embed {
   background-color: #fff;
   color: #252c26;
   text-decoration: none;
+  transition: background-color 0.4s ease;
   width: 80px;
   align-self: center;
   border: 0;
@@ -424,5 +425,16 @@ embed {
 .button-day-sale a:hover {
   background-color: #ddd;
   transition: background-color 0.4s ease;
+}
+.leap-banner-day {
+  background-color: #2e2b32;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  color: #eaeaea;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: -20px;
 }
 /*# sourceMappingURL=style.css.map */
