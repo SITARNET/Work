@@ -445,4 +445,129 @@ img, object, video, embed {
   margin-bottom: -20px;
 }
 
+/**Menu dropdown**/
+
+.menu-navigation {
+  background-color: #e0e1dd;
+  width: 100%;
+}
+
+.menu-navigation-inner {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  ul {
+    li {
+      font-family: 'Roboto', sans-serif;
+      display: inline-block;
+      padding-bottom: 15px;
+      padding-top: 10px;
+      position: relative;
+
+      a {
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #000;
+        text-decoration: none;
+      }
+
+      &:hover {
+        &:before {
+          content: '';
+          height: 5px;
+          width: 100%;
+          background-color: #000;
+          position: absolute;
+          bottom: 0;
+        }
+
+        .menu-navigation-dropdown {
+          display: flex;
+        }
+
+        .menu-navigation-dropdown-box {
+          display: flex;
+        }
+
+        .menu-navigation-dropdown-big {
+          display: flex;
+        }
+      }
+    }
+
+    li + li {
+      margin-left: 30px;
+    }
+  }
+}
+
+.menu-navigation-dropdown-box {
+  position: absolute;
+  top: 45px;
+  display: none;
+}
+
+.menu-navigation-dropdown-big,
+.menu-navigation-dropdown {
+  display: none;
+  flex-direction: column;
+  border: none;
+  box-shadow: none;
+  padding: 15px 15px 15px 15px !important;
+  min-width: 160px;
+  border-top: 1px solid #252c26;
+  z-index: 5;
+  text-align: left;
+  background: #e0e1dd;
+  overflow: visible;
+
+  li + li {
+    margin: unset !important;
+  }
+
+  li {
+    padding: unset !important;
+
+    &:hover {
+      &::before {
+        width: unset !important;
+        height: unset !important;
+      }
+    }
+
+    span {
+      font-weight: 700;
+      text-transform: uppercase;
+      padding-bottom: 5px;
+      border-bottom: 1px solid #000;
+      margin-bottom: 10px;
+      display: block;
+      font-size: 15px;
+    }
+
+    a {
+      display: block;
+      line-height: inherit;
+      color: #252c26;
+      padding: 8px 8px;
+      transition: all .2s;
+      text-transform: unset !important;
+      font-size: 14px !important;
+
+      &:hover {
+        background-color: #fff;
+      }
+    }
+  }
+}
+
+.menu-navigation-dropdown {
+  top: 45px;
+  position: absolute;
+}
+
+/**Menu dropdown**/
 
