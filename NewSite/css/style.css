@@ -46,6 +46,7 @@ body {
   font-weight: 400;
   line-height: 1.4;
   font-size: 14px;
+  margin: 0;
 }
 .main {
   /*max-width: 1280px;*/
@@ -298,9 +299,6 @@ embed {
   font-size: 12px;
 }
 .usd-information {
-  font-size: 14px;
-  color: #fff;
-  font-weight: 700;
   text-transform: capitalize;
   letter-spacing: 2px;
   background-color: transparent;
@@ -351,20 +349,18 @@ embed {
   background-position: center;
 }
 .day-container {
+  background-image: url("../images/hero-image.webp");
+  background-size: cover;
+  position: relative;
+  background-position: center;
   display: flex;
+  justify-content: center;
+  flex-direction: column;
   height: 350px;
   max-height: 450px;
-  max-width: 1250px;
+  min-width: 1250px;
   margin-right: auto;
   margin-left: auto;
-}
-.flex-day-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  height: 350px;
 }
 .day-percent {
   color: #fff;
@@ -374,6 +370,7 @@ embed {
   text-shadow: 0 0 60px #000000, 0 0 20px #000000;
   font-family: 'Roboto', 'Roboto', Helvetica, Arial, sans-serif;
   font-style: normal;
+  align-self: center;
 }
 .cyber-monday {
   padding-top: 15px;
@@ -387,5 +384,45 @@ embed {
   font-style: normal;
   font-weight: 400;
   cursor: pointer;
+  align-self: center;
+}
+.free-text {
+  padding-top: 5px;
+  padding-bottom: 15px;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-family: Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  cursor: pointer;
+  align-self: center;
+  line-height: 20px;
+  text-shadow: 0 0 10px #000000, 0 0 20px #000000;
+}
+.free-text span {
+  font-weight: bold;
+  color: #f1c761;
+}
+.button-day-sale {
+  margin-top: 15px;
+  padding: 8px 20px;
+  background-color: #fff;
+  color: #252c26;
+  text-decoration: none;
+  width: 80px;
+  align-self: center;
+  border: 0;
+  line-height: inherit;
+  cursor: pointer;
+  border-radius: 0;
+}
+.button-day-sale a {
+  background-color: #ddd;
+  transition: background-color 0.4s ease;
+}
+.button-day-sale a:hover {
+  background-color: #ddd;
+  transition: background-color 0.4s ease;
 }
 /*# sourceMappingURL=style.css.map */
