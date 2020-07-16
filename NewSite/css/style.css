@@ -771,4 +771,144 @@ embed {
   color: rgba(37, 44, 38, 0.5);
 }
 /**Features second**/
+/**Product slider**/
+.products-slider {
+  padding-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+}
+.products-slider-inner .slick-dots {
+  position: absolute;
+  display: flex;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.products-slider-inner .slick-dots .slick-active {
+  background-color: #000;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+}
+.products-slider-inner .slick-dots li + li {
+  margin-left: 10px;
+}
+.products-slider-inner .slick-dots li button {
+  background-color: transparent;
+  /**border: none;**/
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  color: transparent;
+}
+.products-slider-title {
+  display: flex;
+  border-bottom: 1px solid #c9cac8;
+  position: relative;
+  padding-top: 20px;
+  margin-bottom: 40px;
+}
+.products-slider-title span {
+  position: absolute;
+  font-size: 30px;
+  padding: 0 20px;
+  text-transform: uppercase;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  text-align: center;
+  width: 260px;
+}
+.products-slider-item {
+  display: flex;
+  margin-bottom: 20px;
+  transition: all 0.3s;
+  padding: 10px;
+}
+.products-slider-item-images {
+  min-height: 207px;
+  height: 207px;
+  width: 207px;
+  display: flex;
+  justify-content: center;
+}
+.products-slider-item-images img {
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+.products-slider-item-content {
+  display: flex;
+  padding: 10px 0 5px;
+}
+.products-slider-item-title {
+  font-weight: 700;
+}
+.products-slider-item-price {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.products-slider-item-price-was span {
+  text-decoration: line-through;
+}
+.products-slider-item-price-now {
+  color: #9a1a28;
+}
+/**Product slider**/
+/**Video presentation**/
+.video-content {
+  display: flex;
+  justify-content: space-around;
+}
+.video-content .video {
+  position: relative;
+}
+.video-content .video-bg {
+  width: 95%;
+  border: 5px solid #a9b089;
+  display: block;
+}
+.video-content i {
+  position: absolute;
+  top: 25%;
+  left: 43%;
+  font-size: 80px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center;
+}
+.video-description {
+  max-width: 595px;
+}
+.video-description .description-title {
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  margin: 10px 0;
+}
+.video-description .description-text {
+  font-size: 14px;
+  text-align: center;
+}
+.video-description .video_btn {
+  border: 1px solid #2d2b31;
+  width: 30%;
+  text-align: center;
+  margin: 20px auto;
+  text-transform: uppercase;
+  padding: 15px;
+}
+.video-description .video_btn:hover {
+  border-color: #c6c7c4;
+}
+.video-description .video_btn:hover a {
+  color: #c6c7c4;
+}
+/**Video presentation**/
 /*# sourceMappingURL=style.css.map */
